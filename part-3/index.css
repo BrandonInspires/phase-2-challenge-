@@ -1,3 +1,16 @@
 body {
-	background-color: red;
+}
+
+
+header {
+	background-color: green;
+}
+#loginButton {
+	float: right;
+}
+nav {
+	background-color: blue;
+}
+#content {
+	background-color: orange;
 }

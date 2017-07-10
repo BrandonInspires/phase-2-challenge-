@@ -1,4 +1,4 @@
-# phase-2-challenge- 590 Total Points (472 Points needed to Pass)
+# phase-2-challenge- 570 Total Points (472 Points needed to Pass)
 Phase 2 Challenge (07/10/2017 Edition)
 
 ## General Requirements (40 Points)

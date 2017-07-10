@@ -10,10 +10,10 @@ Phase 2 Challenge (07/10/2017 Edition)
 ## Part 1: Write tests and solutions for these functions (240 points)
 ### Show A Month (60 Points)
 
-- [ ] __10:__ A test using expected/valid inputs for the `month()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `month()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `month()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `month()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `month()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `month()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `month()` is defined in `functions.js`.
+- [x] __10:__ Tests for `month()` are passing.
 
 ### Reverse a sentence (60 Points) 
 

@@ -2,7 +2,8 @@
 
 function month(date) {
 	if (date instanceof Date) {
-		return "June"
+		let monthArray = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		return monthArray[date.getMonth()]
 	} else {
 		return "Error, input is not a correctly formatted Date object"
 	}

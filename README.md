@@ -1,4 +1,4 @@
-# phase-2-challenge- 570 Total Points (456 Points needed to Pass)
+# phase-2-challenge- 590 Total Points (472 Points needed to Pass)
 Phase 2 Challenge (07/10/2017 Edition)
 
 ## General Requirements (40 Points)
@@ -7,7 +7,7 @@ Phase 2 Challenge (07/10/2017 Edition)
 - [ ] __10:__ Solution repository has 4 folders: `part-1`, `part-2`, and `part-3`, and `part-4`.
 - [ ] __20:__ Git history shows frequent commits.
 
-## Part 1: Write tests and solutions for these functions
+## Part 1: Write tests and solutions for these functions (240 points)
 ### Show A Month (60 Points)
 
 - [ ] __10:__ A test using expected/valid inputs for the `month()` function is written in `tests.js`.

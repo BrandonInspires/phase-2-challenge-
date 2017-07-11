@@ -11,12 +11,10 @@ function month(date) {
 	}
 }
 
-// Works fine except when input string includes commas
 function reverseSentence(string) {
 	if (typeof(string) === "string") {
-	return string.split(' ').reverse().toString().replace(',', ' ')
+	return string.split(' ').reverse().join(' ')
 	} else {
-		console.log(typeof(string))
 		return "Please enter a valid string"
 	}
 }

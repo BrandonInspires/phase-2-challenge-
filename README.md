@@ -17,17 +17,17 @@ Phase 2 Challenge (07/10/2017 Edition)
 
 ### Reverse a sentence (60 Points) 
 
-- [ ] __10:__ A test using expected/valid inputs for the `reverseSentence()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `reverseSentence()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `reverseSentence()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `reverseSentence()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `reverseSentence()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `reverseSentence()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `reverseSentence()` is defined in `functions.js`.
+- [x] __10:__ Tests for `reverseSentence()` are passing.
 
 ### Names of properties (60 Points)
 
-- [ ] __10:__ A test using expected/valid inputs for the `nameProps()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `nameProps()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `nameProps()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `nameProps()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `nameProps()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `nameProps()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `nameProps()` is defined in `functions.js`.
+- [x] __10:__ Tests for `nameProps()` are passing.
 
 ### Filter between (60 Points)
 

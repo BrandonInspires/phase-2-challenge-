@@ -39,7 +39,7 @@ Phase 2 Challenge (07/10/2017 Edition)
 ## Part 2: Extract data from JSON file (80 Points)
 
 - [ ] __40:__ `searchByCompany.js` script prints the client  `id`, `phone`, and `company` for all clients whose `company` starts with the provided `company` argument.
-- [ ] __40:__ `searchByCity.js` script prints the client `id`, `rep_name`, `company`, `city`, and `state` that for all clients whose `city` matches the provided `city` argument.
+- [x] __40:__ `searchByCity.js` script prints the client `id`, `rep_name`, `company`, `city`, and `state` that for all clients whose `city` matches the provided `city` argument.
 
 ## Part 3: HTML layout for Filmtube  (160 Points)
 

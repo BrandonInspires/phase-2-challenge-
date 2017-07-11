@@ -96,6 +96,10 @@ Successfully completed terminal commands typically silently return to the prompt
 ```
 - What does your `~/.gitconfig` have in it? (paste the whole file here)
 ```
+[color]
+	ui = true
+[core]
+	editor = code
 
 ```
 - What is the difference between a relative and absolute path?
@@ -116,7 +120,9 @@ A relative path starts from the current folder i.e. ../username/Desktop
   ```
 
   And you were in the `linkedin-for-dancers` folder. What command would you use to copy the `README.md` file to the `pinterest-for-dogs` folder?
-
+```
+$ cp R* ../p*
+```
 - What keyboard shortcut do you use, in your editor, when you want to open a specific file
 ```
 ⌘O - To open the open file/folder dialog
@@ -128,5 +134,6 @@ node_modules
 ```
 - What is the main difference between `Array.map` and `Array.forEach` in JavaScript?
 ```
+Both take functions that will be applied to each item in an array however Map returns a mutated array and forEach does not
 
 ```

@@ -18,3 +18,9 @@ console.assert(reverseSentence("Hello World!") === "World! Hello")
 console.assert(JSON.stringify(nameProps({name: 'Brandon',age: 34, phone: '555-555-5555'})) == JSON.stringify(["age", "name", "phone"]))
 
 console.assert(nameProps("Hello World!") == "Please Enter A valid ECMAScript Object")
+
+// Test for filterBetween function 
+// let arr = ['dog', 'cat', 'zebra', 'ape', 'lion', 'cow']
+console.assert(JSON.stringify(filterBetween(arr, 'deer', 'giraffe')) == JSON.stringify(['dog']), "It should output ['dog']")
+console.assert(JSON.stringify(filterBetween(arr, 'chimp', 'lobster')) == JSON.stringify(['dog', 'lion', 'cow']),  "It should output ['dog', 'lion', 'cow']")
+console.assert(JSON.stringify(filterBetween(arr, 'chickadee', 'chimpanzee')) == JSON.stringify([]), "It should output an empty array")

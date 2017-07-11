@@ -1,6 +1,6 @@
 //Make it run, make it right, make it fast
 // The second condition in the if statement handles the following edge case:
-
+// TODO refactor to ES6
 // month(new Date('anystring'))
 function month(date) {
 	if (date instanceof Date && !isNaN(date.valueOf())) {
@@ -27,6 +27,13 @@ function nameProps(obj) {
 	}
 }
 
-function filterBetween(array, min, max) {
-	return []
-}
+function filterBetween(arr, min, max){
+	if (typeof(min) == "string" && typeof(max) == "string") {
+		return arr.filter(function(word){
+			return word > min && word < max;})
+} else { return "All inputs should be strings"}
+
+	}
+
+
+

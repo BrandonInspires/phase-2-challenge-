@@ -31,14 +31,14 @@ Phase 2 Challenge (07/10/2017 Edition)
 
 ### Filter between (60 Points)
 
-- [ ] __10:__ A test using expected/valid inputs for the `filterBetween()` function is written in `tests.js`.
-- [ ] __10:__ A test using unexpected/invalid inputs for the `filterBetween()` function is written in `tests.js`.
-- [ ] __30:__ Correct implementation of the `filterBetween()` is defined in `functions.js`.
-- [ ] __10:__ Tests for `filterBetween()` are passing.
+- [x] __10:__ A test using expected/valid inputs for the `filterBetween()` function is written in `tests.js`.
+- [x] __10:__ A test using unexpected/invalid inputs for the `filterBetween()` function is written in `tests.js`.
+- [x] __30:__ Correct implementation of the `filterBetween()` is defined in `functions.js`.
+- [x] __10:__ Tests for `filterBetween()` are passing.
 
 ## Part 2: Extract data from JSON file (80 Points)
 
-- [ ] __40:__ `searchByCompany.js` script prints the client  `id`, `phone`, and `company` for all clients whose `company` starts with the provided `company` argument.
+- [x] __40:__ `searchByCompany.js` script prints the client  `id`, `phone`, and `company` for all clients whose `company` starts with the provided `company` argument.
 - [x] __40:__ `searchByCity.js` script prints the client `id`, `rep_name`, `company`, `city`, and `state` that for all clients whose `city` matches the provided `city` argument.
 
 ## Part 3: HTML layout for Filmtube  (160 Points)

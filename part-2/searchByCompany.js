@@ -2,7 +2,7 @@
 
  const clients = require('./clients.json');
  const company = process.argv[2];
- let clientsFromCompany = clients.filter(function (item) {
+ const clientsFromCompany = clients.filter(function (item) {
        return (item.company.toLowerCase().startsWith(company.toLowerCase()))
  });
 

@@ -24,3 +24,5 @@ console.assert(nameProps("Hello World!") == "Please Enter A valid ECMAScript Obj
 console.assert(JSON.stringify(filterBetween(arr, 'deer', 'giraffe')) == JSON.stringify(['dog']), "It should output ['dog']")
 console.assert(JSON.stringify(filterBetween(arr, 'chimp', 'lobster')) == JSON.stringify(['dog', 'lion', 'cow']),  "It should output ['dog', 'lion', 'cow']")
 console.assert(JSON.stringify(filterBetween(arr, 'chickadee', 'chimpanzee')) == JSON.stringify([]), "It should output an empty array")
+console.assert((filterBetween(arr, 435, 'chimpanzee')) == "All inputs should be strings", "It should return an error message when any input is not a string")
+console.assert((filterBetween(arr, 'chimp', 654)) == "All inputs should be strings", "It should return an error message when any input is not a string")

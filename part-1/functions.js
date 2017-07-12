@@ -19,6 +19,7 @@ function reverseSentence(string) {
 	}
 }
 
+
 function nameProps(obj) {
 	if (obj instanceof Object) {
 		return Object.keys(obj).sort()
@@ -28,7 +29,7 @@ function nameProps(obj) {
 }
 
 function filterBetween(arr, min, max){
-	if (typeof(min) == "string" && typeof(max) == "string") {
+	if (typeof(min) === "string" && typeof(max) === "string") {
 		return arr.filter(function(word){
 			return word > min && word < max;})
 } else { return "All inputs should be strings"}

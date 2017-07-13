@@ -1,4 +1,7 @@
+// const  = require ('./functions');
 // Test for month function
+
+function date(year, month, day) => month(new Date(year, month, day))
 console.assert(typeof(month(new Date()))=== "string", "It should return a string");
 
 console.assert(month(new Date(2017, 6, 19)) === "June", "It should return June" );
@@ -6,6 +9,7 @@ console.assert(month(new Date(2017, 6, 19)) === "June", "It should return June" 
 console.assert(month(new Date(2017, 1, 1 )) === "February", "It should return February")
 
 console.assert(month("string") === "Error, input is not a correctly formatted Date object", "It should return an error message when given invalid input")
+
 // Jest Implementation
 describe("month(date)", () => {
 	describe("Output Type Check", () => {

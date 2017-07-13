@@ -36,5 +36,10 @@ function filterBetween(arr, min, max){
 
 	}
 
-
+module.exports = {
+	filterBetween : filterBetween,
+	nameProps : nameProps,
+	month: month,
+	reverseSentence: reverseSentence,
+ }
 
